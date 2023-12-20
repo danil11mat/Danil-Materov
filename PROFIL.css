@@ -1,0 +1,145 @@
+body {
+    font-family: Tahoma;
+  text-align: center;
+  background: url("images/ФОНМИРА2.gif");
+  background-size: cover;?
+  background-color: rgba(169, 169, 169, 0.6);
+  border-radius: 20px;
+  margin: 30px 100px 25px;
+  }
+  .profile {
+    max-width: 800px;
+    height: 870px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .profile h2 {
+    margin-bottom: 10px;
+  }
+  .profile p {
+    color: #666;
+  }
+#image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #display_image {
+    border-radius: 50%;
+    padding-top: 30px;
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .frame {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .frame::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    transform: scale(1.05);
+    filter: blur(5px);
+  }
+  #display_name,
+  #display_birthday, #display_gender{
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #333;
+  }
+  .frame::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+#LENTA{
+    background-color: rgba(169, 169, 169, 0.9);
+    justify-content: center;
+    margin: 30px 550px 25px;
+    height: 100vh;
+    border-radius: 20px;
+    align-items: center;
+    border: 4px solid black;
+}
+.RAMKA{
+    background-color:darkcyan;
+    justify-content: center;
+    border-radius: 20px;
+    margin: -20px 150px;
+    border: 4px solid black;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background-color: rgba(0, 0, 0, 0.6); /* Прозрачный черный цвет */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 20px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+.img-photo {
+    margin-top: 100px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+.img-photo .img{
+    width: 150px;
+    height: 200px;
+    border: 5px solid #fff;
+    overflow: hidden;   
+}
+.img-photo .img
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+}
+.img-photo .img:hover
+img {
+    transform: scale(1.1);
+    
+}

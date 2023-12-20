@@ -1,0 +1,72 @@
+body {
+    font-family: Tahoma;
+    text-align: center;
+    background: url("images/ФОНМИРА2.gif");
+    background-size: cover;
+    margin: 0;
+
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #00bfff;
+}
+form {
+    margin: 0 auto;
+    background: rgba(0, 186, 255, 0, 77);
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0,82);
+}
+.group {
+    margin: 10px;
+    padding: 5px;
+}
+input::placeholder{
+    text-align: center;
+}
+label {
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0,82);
+}
+input:focus {
+    border: 2px solid #19b2e6;
+    transform: translateX(15px);
+    width: 385px;
+}
+button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 30px;
+    height: 50px;
+    color: aliceblue;
+    background: #00bfff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0,82);
+}
+button:hover {
+    opacity: .50;
+    transition: scale(1.1);
+}
+#image{
+    justify-content: center;
+}

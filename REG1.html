@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <form action="" method="IE=edge" id="dataForm">
+        <h1 title="Форма регистрации на сайте">Регистрация</h1>
+
+        <input type="file" id="image" accept="image/*">
+
+        <div class="group">
+            <input type="text" name="loginname" id="name" placeholder="Имя Фамилия">
+        </div>
+
+        <div class="group">
+            <input type="date" name="age" id="age" placeholder="Дата">
+        </div>
+
+        <div>
+            <label for="gender"> Пол: </label>
+            <select id="gender">
+                <option value="Мужской">Мужской</option>
+                <option value="Женский">Женский</option>
+                <option value="Не указан">Не указан</option>
+            </select>
+        </div>
+
+        <div class="group">
+            <input type="password" name="pass" id="pass" placeholder="Пароль">
+        </div>
+
+        <div class="group">
+            <input type="password" name="repetpass" id="repass" oninput="checkPasswordMatch()" placeholder="Пароль еще раз">
+        </div>
+
+        <div id="passwordError" style="color: red;"></div>
+
+        <div class="group">
+            <center> <input type="button" value="Зарегистрироваться" onclick="saveData()"> </center>
+        </div>
+        <script src="REG1.js">
+        </script>
+    </form>
+
+    
+</body>
+</html>

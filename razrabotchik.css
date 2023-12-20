@@ -1,0 +1,29 @@
+body {
+    font-family: Tahoma;
+    text-align: center;
+    background-image: url("images/ФОНМИРА2.gif") ;
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    margin-top: 350px;
+    background-color: rgba(169, 169, 169, 0.9);
+    justify-content: center;
+    margin: 30px 550px 25px;
+    border-radius: 20px;
+    align-items: center;
+    border: 4px solid black;
+}
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(126, 42, 204, 0.7); /* Прозрачный фон на 90% */
+    padding: 10px 20px;
+    border-radius: 10px; /* Закругленные углы */
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+}
